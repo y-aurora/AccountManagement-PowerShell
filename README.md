@@ -7,4 +7,5 @@ System.DirectoryServices.AccountManagement provides uniform access and manipulat
 In 1.Get-LocalAdminUserInfo.ps1 we domonstrated how to verify if a particular local user account is member of administrators group on a list of remote servers.
 
 Usage: .\Get-LocalAdminUserInfo.ps1 -InputFile .\Computers.csv -AccountName someuser
-Remeber to run the script with an administrative account which should have admin access to remote servers.
+
+Note: remeber to run the script with an administrative account which should have admin access to remote servers.
